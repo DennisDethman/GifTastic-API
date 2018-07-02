@@ -38,13 +38,9 @@ $(".myButton").on("click", function(event) {
         
         main();
 });
-
 makeButton();   
-
-
 //*************************************************************************************************************************
 //*************************************************************************************************************************
-
 // main function for ajax gif grabbing and html 
 
 function main() {
@@ -52,7 +48,6 @@ function main() {
          $(".gifsHere").empty();
         var query = $(this).attr("search");
         
-       
         var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
         query + "&api_key=EN6uyz1vD9DefuxnDyfhRD9X7iEE33K0&limit=10";
 
